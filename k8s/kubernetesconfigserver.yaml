@@ -1,0 +1,3 @@
+spring.cloud.config.server.git.uri: https://github.com/ryanjbaxter/s12024-config
+management.endpoints.web.exposure.include: "*"
+management.endpoint.env.show-values: "always"

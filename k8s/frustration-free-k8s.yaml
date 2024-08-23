@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    kubernetes:
+      discovery:
+        enabled: true
+        discovery-server-url: http://spring-cloud-kubernetes-discoveryserver
+    config:
+      enabled: true
+eureka:
+  client:
+    enabled: false
